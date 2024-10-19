@@ -1,33 +1,33 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Listas from './components/TitulosLIstas'
+import ListaDesordenada from './components/01_ListaMap'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     <Listas titulosL = "1) Renderizar Lista Dinâmica com Map: "/>
+      <ListaDesordenada/>
+      <Listas titulosL = "2) Renderizar Componentes com Props:"/>
+      {/* <Paragrafo/> */}
+      <Listas titulosL = "3) Renderizar Elementos Condicionalmente com Props: "/>
+      {/* <ListaOrdenada/> */}
+      <Listas titulosL = "4) Renderizar uma Tabela: "/>
+      {/* <ImagemURL/> */}
+      <Listas titulosL = "5) Renderizar Imagens com Condição:"/>
+      {/* <Botao/> */}
+      <Listas titulosL = "6) Renderizar Estilos Dinamicamente: "/>
+      {/* <Link/> */}
+      <Listas titulosL = "7) Renderizar uma Lista com Chave (key): "/>
+      {/* <TituloSbtitulo/> */}
+      <Listas titulosL = "8) Renderizar Componente usando children: "/>
+      {/* <Condicao/> */}
+      <Listas titulosL = "9) Renderizar com Fragmentos Aninhados: "/>
+      {/* <Estilo/> */}
+      <Listas titulosL = "10) Renderizar Imagens com Texto Alternativo Dinâmico: "/>
+      {/* <Fragmentos/> */}
     </>
   )
 }
