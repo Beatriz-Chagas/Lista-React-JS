@@ -2,6 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import Listas from './components/TitulosLIstas'
 import ListaDesordenada from './components/01_ListaMap'
+import Filho from './components/02_ComponentePaiFlho'
+import Invisivel from './components/03_Invisivel'
+import Sapatos from './components/04_Tabela'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,11 +14,11 @@ function App() {
      <Listas titulosL = "1) Renderizar Lista Dinâmica com Map: "/>
       <ListaDesordenada/>
       <Listas titulosL = "2) Renderizar Componentes com Props:"/>
-      {/* <Paragrafo/> */}
+      <Filho/>
       <Listas titulosL = "3) Renderizar Elementos Condicionalmente com Props: "/>
-      {/* <ListaOrdenada/> */}
+      <Invisivel paragrafo = {false}/>
       <Listas titulosL = "4) Renderizar uma Tabela: "/>
-      {/* <ImagemURL/> */}
+      <Sapatos/>
       <Listas titulosL = "5) Renderizar Imagens com Condição:"/>
       {/* <Botao/> */}
       <Listas titulosL = "6) Renderizar Estilos Dinamicamente: "/>
