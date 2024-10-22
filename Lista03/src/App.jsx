@@ -6,6 +6,7 @@ import Invisivel from './components/03_Invisivel'
 import Sapatos from './components/04_Tabela'
 import Imagens from './components/05_Imagens'
 import AlterarEstilo from './components/06_EstiloProp'
+import ListaChave from './components/07_ListaChave'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
       <Listas titulosL = "6) Renderizar Estilos Dinamicamente: "/>
       <AlterarEstilo isHighlighted = {true}/>
       <Listas titulosL = "7) Renderizar uma Lista com Chave (key): "/>
-      {/* <TituloSbtitulo/> */}
+      <ListaChave/>
       <Listas titulosL = "8) Renderizar Componente usando children: "/>
       {/* <Condicao/> */}
       <Listas titulosL = "9) Renderizar com Fragmentos Aninhados: "/>
