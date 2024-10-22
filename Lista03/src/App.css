@@ -50,3 +50,10 @@
   padding-left: 25px;
     
   }
+
+  .card{
+    border: 3px solid #000;
+    border-radius: 50px;
+    margin: auto;
+    padding: 50px;
+}

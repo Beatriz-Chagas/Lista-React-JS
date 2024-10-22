@@ -7,6 +7,7 @@ import Sapatos from './components/04_Tabela'
 import Imagens from './components/05_Imagens'
 import AlterarEstilo from './components/06_EstiloProp'
 import ListaChave from './components/07_ListaChave'
+import Card from './components/08_Children'
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       <Listas titulosL = "7) Renderizar uma Lista com Chave (key): "/>
       <ListaChave/>
       <Listas titulosL = "8) Renderizar Componente usando children: "/>
-      {/* <Condicao/> */}
+      <Card children=  {[1,2,3,4,5]}/>
       <Listas titulosL = "9) Renderizar com Fragmentos Aninhados: "/>
       {/* <Estilo/> */}
       <Listas titulosL = "10) Renderizar Imagens com Texto Alternativo Dinâmico: "/>
