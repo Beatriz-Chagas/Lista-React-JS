@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Listas from './components/TitulosLIstas'
 import ListaDesordenada from './components/01_ListaMap'
@@ -6,9 +5,9 @@ import Filho from './components/02_ComponentePaiFlho'
 import Invisivel from './components/03_Invisivel'
 import Sapatos from './components/04_Tabela'
 import Imagens from './components/05_Imagens'
+import AlterarEstilo from './components/06_EstiloProp'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,7 +22,7 @@ function App() {
       <Listas titulosL = "5) Renderizar Imagens com Condição:"/>
       <Imagens/>
       <Listas titulosL = "6) Renderizar Estilos Dinamicamente: "/>
-      {/* <Link/> */}
+      <AlterarEstilo isHighlighted = {true}/>
       <Listas titulosL = "7) Renderizar uma Lista com Chave (key): "/>
       {/* <TituloSbtitulo/> */}
       <Listas titulosL = "8) Renderizar Componente usando children: "/>
