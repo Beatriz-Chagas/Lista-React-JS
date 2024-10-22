@@ -8,6 +8,7 @@ import Imagens from './components/05_Imagens'
 import AlterarEstilo from './components/06_EstiloProp'
 import ListaChave from './components/07_ListaChave'
 import Card from './components/08_Children'
+import FragmentosAninhados from './components/09_FragmentosAninhados'
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
       <Listas titulosL = "8) Renderizar Componente usando children: "/>
       <Card children=  {[1,2,3,4,5]}/>
       <Listas titulosL = "9) Renderizar com Fragmentos Aninhados: "/>
-      {/* <Estilo/> */}
+      <FragmentosAninhados/>
       <Listas titulosL = "10) Renderizar Imagens com Texto Alternativo Dinâmico: "/>
       {/* <Fragmentos/> */}
     </>
