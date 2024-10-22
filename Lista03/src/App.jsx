@@ -9,6 +9,7 @@ import AlterarEstilo from './components/06_EstiloProp'
 import ListaChave from './components/07_ListaChave'
 import Card from './components/08_Children'
 import FragmentosAninhados from './components/09_FragmentosAninhados'
+import ImageList from './components/10_ObjetoImagem'
 
 function App() {
 
@@ -33,7 +34,7 @@ function App() {
       <Listas titulosL = "9) Renderizar com Fragmentos Aninhados: "/>
       <FragmentosAninhados/>
       <Listas titulosL = "10) Renderizar Imagens com Texto Alternativo Dinâmico: "/>
-      {/* <Fragmentos/> */}
+      <ImageList/>
     </>
   )
 }

@@ -44,10 +44,10 @@
   color: #888;
 }
 
-#imagensURL {
+.imagensURL {
   width: 500px;
   height: 700px;
-  padding-left: 25px;
+  padding: 15px;
     
   }
 

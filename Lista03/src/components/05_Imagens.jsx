@@ -11,7 +11,7 @@ function Imagens() {
     return(
         <div>
              {imagens.map((imagens) => (
-            <img src={imagens} alt="Imagem aleatórias de árvores com brilhos azuis e dois cachorros cinzas" id="imagensURL"/>
+            <img src={imagens} alt="Imagem aleatórias de árvores com brilhos azuis e dois cachorros cinzas" className="imagensURL"/>
           ))}
         </div>
     )
